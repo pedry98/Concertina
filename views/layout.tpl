@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="/static/content/clean-blog.min.css"/>
      <link rel="stylesheet" type="text/css" href="/static/content/loginform.css"/>
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
 
 
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
@@ -19,7 +20,7 @@
 <body>
  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="/home">Concertina</a>
+      <a class="navbar-brand" style="font-family:'Comic Sans MS';" href="/home">Concertina</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -54,7 +55,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h1>Concertina First Look</h1>
+            <h1 style="font-family:'Comic Sans MS';">Concertina First Look</h1>
             <span class="subheading">Please work on the design cuz im such a bad designer</span>
           </div>
         </div>
