@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/static/content/clean-blog.css"/>
     <link rel="stylesheet" type="text/css" href="/static/content/clean-blog.min.css"/>
      <link rel="stylesheet" type="text/css" href="/static/content/loginform.css"/>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
@@ -38,7 +39,7 @@
             <a class="nav-link" href="/contact">Contact</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="/loginregister#backgroundpic">Login/Register</a>
+            <a class="nav-link" href="/loginregister#mail">Login/Register</a>
           </li>
         </ul>
       </div>
@@ -47,7 +48,7 @@
 
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('/static/img/home-bg.jpg')">
+  <header class="masthead" style="background-image: url('/static/img/green backgrounds/4.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -78,9 +79,7 @@
     <div class="container body-content">
         {{!base}}
         <hr />
-        <footer>
-            <p>&copy; {{ year }} - Concertina</p>
-        </footer>
+       
     </div>
 
     <script src="/static/scripts/jquery-1.10.2.js"></script>
@@ -92,41 +91,76 @@
     <script src="/static/scripts/jqBootstrapValidation.js"></script>
 
 
-    <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
+  
+<footer class="mainfooter" role="contentinfo" style="background-image: url('/static/img/green backgrounds/4.jpg');">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Legal</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">Payment Center</a></li>
+            <li><a href="#">Contact Directory</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">News and Updates</a></li>
+            <li><a href="#">FAQs</a></li>
           </ul>
-          <p class="copyright text-muted">Copyright &copy; Concertina 2019</p>
         </div>
       </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>More Info</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Website Tutorial</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Webmaster</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Users</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Parks and Recreation</a></li>
+            <li><a href="#">Public Works</a></li>
+            <li><a href="#">Police Department</a></li>
+            <li><a href="#">Fire</a></li>
+            <li><a href="#">Mayor and City Council</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    	<div class="col-md-3">
+    		<h4>Follow Us</h4>
+            <ul class="list-unstyled">
+			<li><a href="#" class="fa fa-facebook"></a></li>
+			<li><a href="#" class="fa fa-twitter"></a></li>
+			<li><a href="#" class="fa fa-youtube"></a></li>
+			<li><a href="#" class="fa fa-github"></a></li>
+            </ul>				
+		</div>
     </div>
-  </footer>
+	<div class="row">
+		<div class="col-md-12 copy">
+			<p class="text-center">&copy; Copyright 2019 - Concertina.  All rights reserved.</p>
+		</div>
+	</div>
+
+
+  </div>
+  </div>
+</footer>
+  
 
 
 

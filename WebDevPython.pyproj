@@ -39,6 +39,7 @@
     <Folder Include="static\content\" />
     <Folder Include="static\fonts\" />
     <Folder Include="static\img\" />
+    <Folder Include="static\img\green backgrounds\" />
     <Folder Include="static\mail\" />
     <Folder Include="static\scripts\" />
     <Folder Include="views\" />
@@ -77,7 +78,14 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="static\img\about-bg.jpg" />
     <Content Include="static\img\contact-bg.jpg" />
+    <Content Include="static\img\green backgrounds\1.jpg" />
+    <Content Include="static\img\green backgrounds\2.jpg" />
+    <Content Include="static\img\green backgrounds\3.jpg" />
+    <Content Include="static\img\green backgrounds\4.jpg" />
+    <Content Include="static\img\green backgrounds\5.jpg" />
+    <Content Include="static\img\green backgrounds\6.jpg" />
     <Content Include="static\img\home-bg.jpg" />
+    <Content Include="static\img\loginbackground.jpg" />
     <Content Include="static\img\post-bg.jpg" />
     <Content Include="static\img\post-sample-image.jpg" />
     <Content Include="static\mail\contact_me.php" />

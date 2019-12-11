@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Start Bootstrap - Clean Blog v5.0.8 (https://startbootstrap.com/template-overviews/clean-blog)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
@@ -370,12 +370,14 @@ form .form-group:first-child .floating-label-form-group {
 }
 
 footer {
+	color:white;
   padding: 50px 0 65px;
 }
 
 footer .list-inline {
   margin: 0;
   padding: 0;
+
 }
 
 footer .copyright {
@@ -409,8 +411,23 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
-#backgroundpic {
-    background-image: url('/static/img/about-bg.jpg');
-    padding-top: 50px;
-    padding-bottom: 50px;
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left: 0 !important;
+	padding: 0;
+}
+
+	ul.social-network li {
+		display: inline;
+		margin: 0 5px;
+	}
+
+
+ul li, ul li a {
+	color: white;
+}
+.socialmedia{
+	color:white;
 }
