@@ -1,6 +1,6 @@
 % rebase('layout.tpl', title=title, year=year)
 
-
+<div id = "backgroundpic">
 <div class="login-page">
   <div class="form" id="loginform" >
     <form class="register-form">
@@ -18,10 +18,4 @@
     </form>
   </div>
 </div>
-
-<script>
-         function alertFunction() {
-           document.getElementById("loginform").focus();
-         }
-         window.onload = alertFunction;
-      </script>
+</div>

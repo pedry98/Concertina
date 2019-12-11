@@ -38,7 +38,7 @@
             <a class="nav-link" href="/contact">Contact</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="/loginregister">Login/Register</a>
+            <a class="nav-link" href="/loginregister#backgroundpic">Login/Register</a>
           </li>
         </ul>
       </div>
