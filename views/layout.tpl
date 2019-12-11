@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="/static/content/clean-blog.css"/>
     <link rel="stylesheet" type="text/css" href="/static/content/clean-blog.min.css"/>
+     <link rel="stylesheet" type="text/css" href="/static/content/loginform.css"/>
 
 
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
@@ -37,12 +38,13 @@
             <a class="nav-link" href="/contact">Contact</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="#Home">Login/Register</a>
+            <a class="nav-link" href="/loginregister">Login/Register</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
 
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('/static/img/home-bg.jpg')">
@@ -58,6 +60,20 @@
       </div>
     </div>
   </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div class="container body-content">
         {{!base}}

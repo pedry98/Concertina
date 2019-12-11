@@ -42,3 +42,13 @@ def about():
         message='Upload the file here for further processing',
         year=datetime.now().year
     )
+@route('/loginregister')
+@view('loginregister')
+def loginregister():
+    """Renders the about page."""
+    return dict(
+        title='Upload File',
+        message='Upload the file here for further processing',
+        year=datetime.now().year
+    )
+
